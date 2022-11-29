@@ -5,7 +5,6 @@ SELECT * FROM Customers
 SELECT CustomerID, CustomerName FROM Customers     
     # Zamiast Gwiazdki * wpisuje sie konkretne klucze które ma sie pokazac
 
-
 SELECT CustomerID, CustomerName, City  FROM Customers WHERE City = 'Berlin'
     # Tutaj dodajemy funckje 'Where' aby ograniczyc dana baze czyli osoby z berlina
 
