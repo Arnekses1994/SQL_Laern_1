@@ -5,7 +5,6 @@ SELECT * FROM Customers
 SELECT CustomerID, CustomerName FROM Customers     
     # Zamiast Gwiazdki * wpisuje sie konkretne klucze które ma sie pokazac
 
-
 SELECT CustomerID, CustomerName, City  FROM Customers WHERE City = 'Berlin'
     # Tutaj dodajemy funckje 'Where' aby ograniczyc dana baze czyli osoby z berlina
 
@@ -54,5 +53,3 @@ SELECT * FROM users WHERE username LIKE '%am$'
 
 SELECT * FROM users WHERE year_of_birth != 1988;
     # Pokazywanie innych wyników niż 1988 ( Pokaż wszystko poza wynikiem 1988 )     
-
-    
