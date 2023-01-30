@@ -53,5 +53,3 @@ SELECT * FROM users WHERE username LIKE '%am$'
 
 SELECT * FROM users WHERE year_of_birth != 1988;
     # Pokazywanie innych wyników niż 1988 ( Pokaż wszystko poza wynikiem 1988 )     
-
-    
